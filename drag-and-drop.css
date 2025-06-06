@@ -1,0 +1,44 @@
+body {
+    background-image: url(background-img.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(132, 81, 13);
+    text-align: center;
+}
+
+#drop-area {
+    border: 2px solid rgb(205, 175, 99);
+    border-radius: 10px;
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    color: rgb(117, 67, 3);
+    text-align: center;
+    margin: 50px auto;
+    background-color: rgba(30, 30, 30, 0.1);
+    transition-duration: 1s;
+}
+
+#drop-area:hover {
+    box-shadow: 5px 5px 10px burlywood;
+}
+
+.browse {
+    background-color: rgba(244, 226, 92, 0.116);
+    border-radius: 5px;
+    color: rgb(92, 55, 0);
+    text-decoration: underline;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+.browse:hover {
+    box-shadow: 5px 5px 10px burlywood;
+}
+
+.highlight {
+    border: 2px dashed goldenrod;
+    background-color: rgba(255, 255, 0, 0.1);
+}
